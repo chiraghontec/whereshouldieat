@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# FoodieFind Pre-Deployment Verification Script
+# WhereShouldIEat Pre-Deployment Verification Script
 # Verifies that the codebase is ready for GitHub deployment
 
 set -e
 
-echo "🔍 FoodieFind Pre-Deployment Verification"
-echo "========================================"
+echo "🔍 WhereShouldIEat Pre-Deployment Verification"
+echo "=============================================="
 
 # Colors for output
 RED='\033[0;31m'
@@ -36,7 +36,7 @@ errors=0
 # Check if we're in the right directory
 print_check "Verifying project structure..."
 if [ ! -f "README.md" ] || [ ! -d "frontend" ] || [ ! -d "backend" ]; then
-    print_fail "Not in FoodieFind project root directory"
+    print_fail "Not in WhereShouldIEat project root directory"
     exit 1
 fi
 print_pass "Project structure verified"
@@ -118,7 +118,7 @@ fi
 print_check "Verifying package.json configurations..."
 
 if [ -f "frontend/web/package.json" ]; then
-    if grep -q '"name": "foodiefind-web"' frontend/web/package.json; then
+    if grep -q '"name": "whereshouldieat-web"' frontend/web/package.json; then
         print_pass "Web package.json properly configured"
     else
         print_warn "Web package.json may need name verification"
@@ -126,7 +126,7 @@ if [ -f "frontend/web/package.json" ]; then
 fi
 
 if [ -f "frontend/mobile/package.json" ]; then
-    if grep -q '"name": "foodiefind-mobile"' frontend/mobile/package.json; then
+    if grep -q '"name": "whereshouldieat-mobile"' frontend/mobile/package.json; then
         print_pass "Mobile package.json properly configured"
     else
         print_warn "Mobile package.json may need name verification"

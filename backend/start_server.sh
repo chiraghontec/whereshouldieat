@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# FoodieFind API Development Server Startup Script
+# WhereShouldIEat API Development Server Startup Script
 
-echo "🍽️  Starting FoodieFind API Server..."
+echo "🍽️  Starting WhereShouldIEat API Server..."
 echo "======================================="
 
 # Activate virtual environment
 source .venv/bin/activate
 
 # Set environment variables for development
-export DATABASE_URL="sqlite:///./foodie.db"
+export DATABASE_URL="sqlite:///./whereshouldieat.db"
 export SECRET_KEY="dev-secret-key-change-in-production"
 export DEBUG="True"
 

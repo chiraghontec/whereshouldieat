@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# FoodieFind Development Setup Script
+# WhereShouldIEat Development Setup Script
 # Run this script to set up the entire development environment
 
 set -e
 
-echo "🍽️  Setting up FoodieFind Development Environment"
+echo "🍽️  Setting up WhereShouldIEat Development Environment"
 echo "=================================================="
 
 # Colors for output
@@ -29,11 +29,11 @@ print_error() {
 
 # Check if we're in the right directory
 if [ ! -f "README.md" ] || [ ! -d "backend" ] || [ ! -d "frontend" ]; then
-    print_error "Please run this script from the FoodieFind root directory"
+    print_error "Please run this script from the WhereShouldIEat root directory"
     exit 1
 fi
 
-print_status "Setting up FoodieFind development environment..."
+print_status "Setting up WhereShouldIEat development environment..."
 
 # Backend setup
 echo ""

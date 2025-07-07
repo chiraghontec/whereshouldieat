@@ -1,4 +1,4 @@
-# Production deployment for FoodieFind API
+# Production deployment for WhereShouldIEat API
 version: '3.8'
 
 services:

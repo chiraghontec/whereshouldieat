@@ -1,4 +1,4 @@
-# FoodieFind React Native App
+# WhereShouldIEat React Native App
 
 A cross-platform mobile application for discovering and reviewing restaurants, built with React Native and OpenStreetMap integration.
 
@@ -216,7 +216,7 @@ APPLE_CLIENT_ID=your_apple_client_id
 
 ### Build Configuration
 
-#### iOS (ios/FoodieFindRN/Info.plist)
+#### iOS (ios/WhereShouldIEatRN/Info.plist)
 \`\`\`xml
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>This app needs location access to find nearby restaurants</string>
@@ -306,9 +306,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support and questions:
 - Create an issue on GitHub
-- Email: support@foodiefind.com
-- Documentation: [docs.foodiefind.com](https://docs.foodiefind.com)
+- Email: support@whereshouldieat.com
+- Documentation: [docs.whereshouldieat.com](https://docs.whereshouldieat.com)
 
 ---
 
-**FoodieFind React Native** - Discover great food, wherever you are! 🍽️📱
+**WhereShouldIEat React Native** - Discover great food, wherever you are! 🍽️📱

@@ -1,5 +1,5 @@
 {
-  "name": "foodiefind-mobile",
+  "name": "whereshouldieat-mobile",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "build:android": "cd android && ./gradlew assembleRelease",
-    "build:ios": "cd ios && xcodebuild -workspace FoodieFindRN.xcworkspace -scheme FoodieFindRN -configuration Release -destination generic/platform=iOS -archivePath FoodieFindRN.xcarchive archive"
+    "build:ios": "cd ios && xcodebuild -workspace WhereShouldIEatRN.xcworkspace -scheme WhereShouldIEatRN -configuration Release -destination generic/platform=iOS -archivePath WhereShouldIEatRN.xcarchive archive"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.19.3",

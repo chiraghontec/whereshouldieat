@@ -3,7 +3,7 @@
 ## Base URL
 ```
 Development: http://localhost:8000
-Production: https://api.foodiefind.com
+Production: https://api.whereshouldieat.com
 ```
 
 ## Authentication

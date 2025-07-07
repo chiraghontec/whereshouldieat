@@ -1,6 +1,6 @@
-# FoodieFind Frontend
+# WhereShouldIEat Frontend
 
-A modern React.js frontend for FoodieFind - a restaurant discovery SaaS that helps food enthusiasts find hidden gem restaurants.
+A modern React.js frontend for WhereShouldIEat - a restaurant discovery SaaS that helps food enthusiasts find hidden gem restaurants.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/chirag0117-outlookcoms-projects/v0-foodie-find-frontend)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/vUFS3b1WWa7)
