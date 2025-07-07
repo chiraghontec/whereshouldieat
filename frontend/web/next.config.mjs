@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  transpilePackages: ['lucide-react'],
+  experimental: {
+    externalDir: true,
+  },
 }
 
 export default nextConfig
