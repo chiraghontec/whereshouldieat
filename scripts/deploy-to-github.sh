@@ -49,7 +49,7 @@ fi
 if [ -z "$1" ]; then
     print_error "Please provide the GitHub repository URL as an argument"
     echo "Usage: ./scripts/deploy-to-github.sh <github-repo-url>"
-    echo "Example: ./scripts/deploy-to-github.sh https://github.com/yourusername/whereshouldieat.git"
+    echo "Example: ./scripts/deploy-to-github.sh https://github.com/chiraghontec/whereshouldieat.git"
     exit 1
 fi
 
