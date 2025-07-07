@@ -1,6 +1,6 @@
-# FoodieFind Frontend
+# WhereShouldIEat Frontend
 
-This directory contains the frontend applications for FoodieFind - a restaurant discovery SaaS platform.
+This directory contains the frontend applications for WhereShouldIEat - a restaurant discovery SaaS platform.
 
 ## 🏗️ Architecture Overview
 
@@ -187,4 +187,4 @@ npm test
 
 ## 📄 License
 
-This project is part of the FoodieFind SaaS platform.
+This project is part of the WhereShouldIEat SaaS platform.

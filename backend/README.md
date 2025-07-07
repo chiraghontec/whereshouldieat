@@ -1,4 +1,4 @@
-# FoodieFind API Backend
+# WhereShouldIEat API Backend
 
 A FastAPI-based backend for discovering hidden gem restaurants and cafes. This is the complete MVP implementation for a restaurant discovery SaaS platform.
 

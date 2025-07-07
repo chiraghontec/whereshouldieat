@@ -51,7 +51,7 @@ export default function RegisterScreen({ navigation }: any) {
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
-          <Text style={[typography.h1, { color: colors.primaryOrange }]}>FoodieFind</Text>
+          <Text style={[typography.h1, { color: colors.primaryOrange }]}>WhereShouldIEat</Text>
           <Text style={[typography.body, { color: colors.textSecondary, marginTop: spacing.sm }]}>
             Join our community of food lovers
           </Text>

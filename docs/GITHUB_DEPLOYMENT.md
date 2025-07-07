@@ -2,7 +2,7 @@
 
 ## 📋 Pre-Deployment Checklist
 
-Your FoodieFind codebase is now clean, organized, and ready for GitHub deployment. Here's what has been prepared:
+Your WhereShouldIEat codebase is now clean, organized, and ready for GitHub deployment. Here's what has been prepared:
 
 ### ✅ Code Organization
 - **Backend**: `/backend/` - FastAPI application with all APIs, models, and configurations
@@ -34,8 +34,8 @@ Your FoodieFind codebase is now clean, organized, and ready for GitHub deploymen
 2. Click the "+" icon in the top right corner
 3. Select "New repository"
 4. Repository settings:
-   - **Repository name**: `foodiefind` (or your preferred name)
-   - **Description**: "FoodieFind - AI-Powered Restaurant Discovery SaaS Platform"
+   - **Repository name**: `whereshouldieat` (or your preferred name)
+   - **Description**: "WhereShouldIEat - AI-Powered Restaurant Discovery SaaS Platform"
    - **Visibility**: Choose Public or Private based on your needs
    - **DO NOT** initialize with README, .gitignore, or license (we already have these)
 5. Click "Create repository"
@@ -46,7 +46,7 @@ After creating the repository, GitHub will show you the repository URL. Use our 
 
 ```bash
 # Replace with your actual repository URL
-./scripts/deploy-to-github.sh https://github.com/yourusername/foodiefind.git
+./scripts/deploy-to-github.sh https://github.com/yourusername/whereshouldieat.git
 ```
 
 The script will:
@@ -162,4 +162,4 @@ If you encounter any issues during deployment:
 3. Ensure git credentials are properly configured
 4. Review GitHub Actions logs for CI/CD issues
 
-Your FoodieFind codebase is production-ready and follows industry best practices for organization, version control, and deployment automation!
+Your WhereShouldIEat codebase is production-ready and follows industry best practices for organization, version control, and deployment automation!

@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     google_maps_api_key: Optional[str] = None
     
     # App
-    app_name: str = "FoodieFind API"
+    app_name: str = "WhereShouldIEat API"
     debug: bool = True
     
     class Config:

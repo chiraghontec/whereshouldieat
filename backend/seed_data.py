@@ -1,5 +1,5 @@
 """
-Sample data seeder for FoodieFind API
+Sample data seeder for WhereShouldIEat API
 Run this script to populate the database with test data
 """
 

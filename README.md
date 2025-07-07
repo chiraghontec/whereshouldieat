@@ -1,13 +1,13 @@
-# FoodieFind - Restaurant Discovery SaaS Platform
+# WhereShouldIEat - Restaurant Discovery SaaS Platform
 
 > Discover hidden culinary gems your taste buds have been searching for
 
-FoodieFind is a comprehensive restaurant discovery platform that helps food enthusiasts find underrated local restaurants using our proprietary "Hidden Gem Algorithm." The platform consists of a FastAPI backend, Next.js web application, and React Native mobile apps.
+WhereShouldIEat is a comprehensive restaurant discovery platform that helps food enthusiasts find underrated local restaurants using our proprietary "Hidden Gem Algorithm." The platform consists of a FastAPI backend, Next.js web application, and React Native mobile apps.
 
 ## 🏗️ Project Structure
 
 ```
-foodiefind/
+whereshouldieat/
 ├── backend/           # FastAPI Backend API
 ├── frontend/          # Frontend Applications
 │   ├── web/          # Next.js Web Application  
@@ -100,7 +100,7 @@ npm run ios    # or npm run android
 
 **Problem**: Food enthusiasts waste time and money on disappointing restaurant experiences because existing platforms prioritize popular/paid establishments over genuine quality.
 
-**Solution**: FoodieFind reveals hidden culinary gems through:
+**Solution**: WhereShouldIEat reveals hidden culinary gems through:
 - Proprietary algorithm that finds underrated restaurants
 - Community of verified local food enthusiasts
 - Dish-specific search and dietary intelligence
@@ -131,7 +131,7 @@ npm run ios    # or npm run android
 ### Environment Variables
 ```bash
 # Backend (.env)
-DATABASE_URL=postgresql://user:pass@localhost/foodie_db
+DATABASE_URL=postgresql://user:pass@localhost/whereshouldieat_db
 SECRET_KEY=your-secret-key
 GOOGLE_MAPS_API_KEY=your-api-key
 
@@ -156,8 +156,8 @@ cd frontend/mobile && npm test
 ## 🚀 Deployment
 
 ### Production URLs
-- **Web App**: https://foodiefind.com
-- **API**: https://api.foodiefind.com
+- **Web App**: https://whereshouldieat.com
+- **API**: https://api.whereshouldieat.com
 - **Mobile Apps**: Available on App Store & Google Play
 
 ### Docker Deployment
@@ -193,10 +193,10 @@ This project is proprietary software. All rights reserved.
 
 ## 🔗 Links
 
-- **Website**: https://foodiefind.com
-- **Documentation**: https://docs.foodiefind.com
-- **Support**: support@foodiefind.com
-- **Twitter**: [@FoodieFindApp](https://twitter.com/foodiefindapp)
+- **Website**: https://whereshouldieat.com
+- **Documentation**: https://docs.whereshouldieat.com
+- **Support**: support@whereshouldieat.com
+- **Twitter**: [@WhereShouldIEatApp](https://twitter.com/whereshouldIeatapp)
 
 ---
 

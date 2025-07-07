@@ -14,7 +14,7 @@ export default function LandingPage() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Utensils className="w-8 h-8 text-primary-orange mr-2" />
-              <span className="text-2xl font-bold text-dark">FoodieFind</span>
+              <span className="text-2xl font-bold text-dark">WhereShouldIEat</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-600 hover:text-primary-orange">
@@ -48,7 +48,7 @@ export default function LandingPage() {
                 Discover Hidden Culinary Gems Your Taste Buds Have Been Searching For
               </h1>
               <p className="font-normal text-base md:text-lg text-gray-600 mb-8">
-                Stop wasting money on disappointing restaurants. FoodieFind reveals the underrated local favorites that
+                Stop wasting money on disappointing restaurants. WhereShouldIEat reveals the underrated local favorites that
                 food enthusiasts actually love.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -88,7 +88,7 @@ export default function LandingPage() {
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-bold text-3xl md:text-4xl text-dark mb-4">Why FoodieFind Finds Better Restaurants</h2>
+            <h2 className="font-bold text-3xl md:text-4xl text-dark mb-4">Why WhereShouldIEat Finds Better Restaurants</h2>
             <p className="font-normal text-lg text-gray-600 max-w-3xl mx-auto">
               Our unique algorithm doesn't just show you popular places. We find the hidden gems that locals love but
               tourists miss.
@@ -188,7 +188,7 @@ export default function LandingPage() {
             <div className="bg-neutral-light p-6 rounded-xl">
               <StarRating rating={5} className="mb-4" />
               <p className="text-gray-600 mb-4">
-                "FoodieFind helped me discover this incredible Thai place that's been in my neighborhood for years. Best
+                "WhereShouldIEat helped me discover this incredible Thai place that's been in my neighborhood for years. Best
                 pad thai I've ever had!"
               </p>
               <div className="flex items-center">
@@ -209,7 +209,7 @@ export default function LandingPage() {
             <div className="bg-neutral-light p-6 rounded-xl">
               <StarRating rating={5} className="mb-4" />
               <p className="text-gray-600 mb-4">
-                "As someone with celiac disease, finding truly gluten-free restaurants was impossible. FoodieFind's
+                "As someone with celiac disease, finding truly gluten-free restaurants was impossible. WhereShouldIEat's
                 dietary filters are a game-changer."
               </p>
               <div className="flex items-center">
@@ -230,7 +230,7 @@ export default function LandingPage() {
             <div className="bg-neutral-light p-6 rounded-xl">
               <StarRating rating={5} className="mb-4" />
               <p className="text-gray-600 mb-4">
-                "I've found 12 new favorite restaurants in the past month. FoodieFind knows my taste better than I do!"
+                "I've found 12 new favorite restaurants in the past month. WhereShouldIEat knows my taste better than I do!"
               </p>
               <div className="flex items-center">
                 <Image
@@ -339,7 +339,7 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center mb-4">
                 <Utensils className="w-8 h-8 text-primary-orange mr-2" />
-                <span className="text-2xl font-bold">FoodieFind</span>
+                <span className="text-2xl font-bold">WhereShouldIEat</span>
               </div>
               <p className="text-gray-400">Discover hidden culinary gems your taste buds have been searching for.</p>
             </div>
@@ -409,7 +409,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 FoodieFind. All rights reserved.</p>
+            <p>&copy; 2024 WhereShouldIEat. All rights reserved.</p>
           </div>
         </div>
       </footer>

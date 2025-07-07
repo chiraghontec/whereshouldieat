@@ -1,4 +1,4 @@
-name: FoodieFind CI/CD
+name: WhereShouldIEat CI/CD
 
 on:
   push:

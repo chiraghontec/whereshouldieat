@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# FoodieFind GitHub Deployment Script
-# This script helps deploy the FoodieFind codebase to GitHub with proper branch setup
+# WhereShouldIEat GitHub Deployment Script
+# This script helps deploy the WhereShouldIEat codebase to GitHub with proper branch setup
 
 set -e
 
-echo "🚀 FoodieFind GitHub Deployment Script"
-echo "======================================"
+echo "🚀 WhereShouldIEat GitHub Deployment Script"
+echo "==========================================="
 
 # Colors for output
 RED='\033[0;31m'
@@ -34,7 +34,7 @@ print_error() {
 
 # Check if we're in the right directory
 if [ ! -f "README.md" ] || [ ! -d "frontend" ] || [ ! -d "backend" ]; then
-    print_error "Please run this script from the FoodieFind project root directory"
+    print_error "Please run this script from the WhereShouldIEat project root directory"
     exit 1
 fi
 
@@ -49,7 +49,7 @@ fi
 if [ -z "$1" ]; then
     print_error "Please provide the GitHub repository URL as an argument"
     echo "Usage: ./scripts/deploy-to-github.sh <github-repo-url>"
-    echo "Example: ./scripts/deploy-to-github.sh https://github.com/yourusername/foodiefind.git"
+    echo "Example: ./scripts/deploy-to-github.sh https://github.com/yourusername/whereshouldieat.git"
     exit 1
 fi
 
