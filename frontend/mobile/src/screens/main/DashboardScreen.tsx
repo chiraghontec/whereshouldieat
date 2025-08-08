@@ -1,19 +1,14 @@
-"use client"
-
 import { useState } from "react"
 import { View, StyleSheet, ScrollView, RefreshControl } from "react-native"
 import { Text, Searchbar, FAB, Portal, Modal } from "react-native-paper"
 import { SafeAreaView } from "react-native-safe-area-context"
 
 import { colors, spacing, typography } from "../../theme/theme"
-import { useApp } from "../../contexts/AppContext"
-import RestaurantCard from "../../components/RestaurantCard"
-import FilterModal from "../../components/FilterModal"
+import { useAppContext } from "../../contexts/AppContext"
 
 export default function DashboardScreen({ navigation }: any) {
-  const { state, dispatch } = useApp()
+  const { user } = useAppContext()
   const [refreshing, setRefreshing] = useState(false)
-  const [showFilters, setShowFilters] = useState(false)
 
   const onRefresh = () => {
     setRefreshing(true)

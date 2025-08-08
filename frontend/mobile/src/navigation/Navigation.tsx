@@ -1,20 +1,20 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
-import Icon from "react-native-vector-icons/MaterialIcons"
+import { MaterialIcons } from "@expo/vector-icons"
 
-import LoginScreen from "../screens/auth/LoginScreen"
-import RegisterScreen from "../screens/auth/RegisterScreen"
-import OnboardingScreen from "../screens/auth/OnboardingScreen"
-import DashboardScreen from "../screens/main/DashboardScreen"
-import SearchScreen from "../screens/main/SearchScreen"
-import MapScreen from "../screens/main/MapScreen"
-import BookmarksScreen from "../screens/main/BookmarksScreen"
-import ProfileScreen from "../screens/main/ProfileScreen"
-import RestaurantDetailScreen from "../screens/main/RestaurantDetailScreen"
-import ReviewScreen from "../screens/main/ReviewScreen"
+import LoginScreen from "../screens/auth/LoginScreenSimple"
+import RegisterScreen from "../screens/auth/RegisterScreenSimple"
+import OnboardingScreen from "../screens/auth/OnboardingScreenSimple"
+import DashboardScreen from "../screens/main/DashboardScreenSimple"
+import SearchScreen from "../screens/main/SearchScreenSimple"
+import MapScreen from "../screens/main/MapScreenSimple"
+import BookmarksScreen from "../screens/main/BookmarksScreenSimple"
+import ProfileScreen from "../screens/main/ProfileScreenSimple"
+import RestaurantDetailScreen from "../screens/main/RestaurantDetailScreenSimple"
+import ReviewScreen from "../screens/main/ReviewScreenSimple"
 
 import { colors } from "../theme/theme"
-import { useApp } from "../contexts/AppContext"
+import { useAppContext } from "../contexts/AppContext"
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -46,7 +46,7 @@ function MainTabs() {
               iconName = "home"
           }
 
-          return <Icon name={iconName} size={size} color={color} />
+          return <MaterialIcons name={iconName as any} size={size} color={color} />
         },
         tabBarActiveTintColor: colors.primaryOrange,
         tabBarInactiveTintColor: colors.gray[500],
@@ -67,11 +67,11 @@ function MainTabs() {
 }
 
 export default function Navigation() {
-  const { state } = useApp()
+  const { isAuthenticated } = useAppContext()
 
   return (
     <Stack.Navigator
-      initialRouteName={state.user ? "MainTabs" : "Login"}
+      initialRouteName={isAuthenticated ? "MainTabs" : "Login"}
       screenOptions={{
         headerShown: false,
       }}

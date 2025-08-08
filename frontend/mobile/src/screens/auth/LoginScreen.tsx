@@ -1,16 +1,14 @@
-"use client"
-
 import { useState } from "react"
 import { View, StyleSheet, ScrollView, Alert } from "react-native"
 import { Text, TextInput, Button, Card, Divider } from "react-native-paper"
 import { SafeAreaView } from "react-native-safe-area-context"
-import Icon from "react-native-vector-icons/MaterialIcons"
+import { MaterialIcons } from "@expo/vector-icons"
 
 import { colors, spacing, typography } from "../../theme/theme"
-import { useApp } from "../../contexts/AppContext"
+import { useAppContext } from "../../contexts/AppContext"
 
 export default function LoginScreen({ navigation }: any) {
-  const { dispatch } = useApp()
+  const { setIsAuthenticated, setUser } = useAppContext()
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [isLoading, setIsLoading] = useState(false)
@@ -26,19 +24,17 @@ export default function LoginScreen({ navigation }: any) {
 
     // Simulate API call
     setTimeout(() => {
-      dispatch({
-        type: "SET_USER",
-        payload: {
-          id: "1",
-          name: "John Doe",
-          email: email,
-          preferences: {
-            cuisines: [],
-            dietaryRestrictions: [],
-            priceRange: [],
-          },
+      setUser({
+        id: "1",
+        name: "John Doe",
+        email: email,
+        preferences: {
+          cuisines: [],
+          dietaryRestrictions: [],
+          priceRange: [],
         },
       })
+      setIsAuthenticated(true)
       setIsLoading(false)
       navigation.replace("MainTabs")
     }, 1500)
@@ -105,7 +101,7 @@ export default function LoginScreen({ navigation }: any) {
                 mode="outlined"
                 onPress={() => handleSocialLogin("Google")}
                 style={styles.socialButton}
-                icon={() => <Icon name="google" size={20} color={colors.text} />}
+                icon={() => <MaterialIcons name="login" size={20} color={colors.text} />}
               >
                 Google
               </Button>
@@ -114,7 +110,7 @@ export default function LoginScreen({ navigation }: any) {
                 mode="outlined"
                 onPress={() => handleSocialLogin("Apple")}
                 style={styles.socialButton}
-                icon={() => <Icon name="apple" size={20} color={colors.text} />}
+                icon={() => <MaterialIcons name="login" size={20} color={colors.text} />}
               >
                 Apple
               </Button>
