@@ -1,0 +1,421 @@
+# TAM Analysis Guide: WhereShouldIEat
+## Complete Framework for Total Addressable Market Research
+
+### 🎯 **TAM Analysis Framework Overview**
+
+```
+TAM Analysis Structure:
+├── Top-Down Approach (Industry reports, macro data)
+├── Bottom-Up Approach (User behavior, spending patterns)
+├── Value Theory Approach (Problem value estimation)
+└── Comparable Company Analysis (Similar markets)
+```
+
+---
+
+## 📊 **1. TOP-DOWN APPROACH**
+
+### **1.1 Primary Industry Data Sources**
+
+#### **Free Sources:**
+- **Statista** (free reports): statista.com
+- **IBISWorld** (limited free data): ibisworld.com
+- **Grand View Research**: grandviewresearch.com
+- **Allied Market Research**: alliedmarketresearch.com
+- **Research and Markets**: researchandmarkets.com
+
+#### **Premium Sources (Worth Investment):**
+- **IBISWorld Full Reports**: $300-500/report
+- **McKinsey Global Institute**: mckinsey.com/mgi
+- **Deloitte Industry Reports**: deloitte.com/insights
+- **PwC Industry Analysis**: pwc.com/gx/en/industries
+
+### **1.2 Specific Search Prompts for TAM Data**
+
+#### **Restaurant Industry Size:**
+```
+Search Prompts:
+🔍 "restaurant industry market size 2024 global"
+🔍 "food service industry revenue statistics worldwide"
+🔍 "restaurant market size by country United States"
+🔍 "quick service restaurant industry analysis 2024"
+🔍 "full service restaurant market trends revenue"
+🔍 "restaurant industry growth rate projections 2025-2030"
+🔍 "food and beverage service market size analysis"
+```
+
+#### **Technology/App Market:**
+```
+Search Prompts:
+🔍 "food tech market size mobile applications"
+🔍 "restaurant discovery app market analysis"
+🔍 "food delivery platform market size excluding delivery"
+🔍 "local search mobile app market revenue"
+🔍 "restaurant review platform industry size"
+🔍 "location-based services food industry market"
+🔍 "mobile food ordering platform market excluding delivery"
+```
+
+#### **Consumer Behavior Data:**
+```
+Search Prompts:
+🔍 "consumer spending restaurants dining out statistics"
+🔍 "how much Americans spend dining out annually"
+🔍 "restaurant visit frequency consumer behavior study"
+🔍 "millennial dining out spending patterns research"
+🔍 "food discovery consumer behavior mobile usage"
+🔍 "restaurant decision making process consumer study"
+```
+
+### **1.3 Key Metrics to Extract**
+
+#### **Essential TAM Numbers:**
+```
+Primary Data Points:
+├── Global restaurant industry revenue ($X trillion)
+├── US restaurant industry revenue ($X billion)
+├── Mobile food tech market size ($X billion)
+├── Restaurant discovery segment ($X million)
+├── Average annual consumer dining spend ($X)
+├── Number of restaurants globally/US (X million)
+├── Restaurant industry growth rate (X% CAGR)
+└── Food tech adoption rate (X% of consumers)
+```
+
+---
+
+## 📱 **2. BOTTOM-UP APPROACH**
+
+### **2.1 Consumer Spending Research**
+
+#### **Search Prompts for Spending Data:**
+```
+Consumer Economics:
+🔍 "average American household restaurant spending 2024"
+🔍 "dining out frequency by demographics age income"
+🔍 "restaurant spending per capita by state city"
+🔍 "food away from home consumer expenditure survey"
+🔍 "restaurant visit frequency weekly monthly statistics"
+🔍 "average meal cost by restaurant type casual fine dining"
+🔍 "consumer food budget allocation dining out vs home"
+```
+
+#### **Demographics Research:**
+```
+Target Market Sizing:
+🔍 "US population demographics dining out age groups"
+🔍 "millennial gen z restaurant dining behavior"
+🔍 "urban vs suburban restaurant consumption patterns"
+🔍 "household income restaurant spending correlation"
+🔍 "smartphone adoption rate restaurant discovery apps"
+🔍 "food enthusiast market size demographics"
+```
+
+### **2.2 Bottom-Up Calculation Framework**
+
+```
+Bottom-Up TAM Formula:
+TAM = (Target Population) × (Average Annual Spending) × (Market Penetration Rate)
+
+Example Calculation:
+├── US Adults 18-65 who dine out: 200M people
+├── Average annual restaurant spending: $2,500
+├── Willing to pay for discovery service: 20%
+├── Average willingness to pay: $60/year
+└── TAM = 200M × $60 × 20% = $2.4B
+```
+
+### **2.3 Data Sources for Bottom-Up**
+
+#### **Government Sources:**
+- **Bureau of Labor Statistics**: bls.gov (Consumer Expenditure Survey)
+- **US Census Bureau**: census.gov (Economic Census)
+- **USDA Economic Research Service**: ers.usda.gov
+- **Federal Reserve Economic Data**: fred.stlouisfed.org
+
+#### **Search Prompts for Government Data:**
+```
+Government Data:
+🔍 "BLS consumer expenditure survey food away from home"
+🔍 "US census restaurant industry statistics NAICS 722"
+🔍 "USDA food spending patterns Americans dining out"
+🔍 "Federal Reserve consumer spending categories food service"
+🔍 "Bureau of Economic Analysis personal consumption food services"
+```
+
+---
+
+## 🔍 **3. COMPETITIVE ANALYSIS APPROACH**
+
+### **3.1 Public Company Research**
+
+#### **Key Companies to Analyze:**
+- **Yelp Inc.** (YELP) - Direct competitor
+- **TripAdvisor** (TRIP) - Restaurant reviews segment
+- **OpenTable** (part of Booking Holdings - BKNG)
+- **Grubhub/DoorDash** - Discovery features only
+- **Google** (GOOGL) - Maps/Places revenue attribution
+
+#### **Search Prompts for Company Data:**
+```
+Financial Analysis:
+🔍 "Yelp annual revenue 2024 restaurant segment"
+🔍 "TripAdvisor restaurant business unit revenue"
+🔍 "OpenTable market share restaurant reservations"
+🔍 "Google Maps Places API revenue restaurant industry"
+🔍 "food discovery app revenue models comparison"
+🔍 "restaurant review platform monetization strategies"
+🔍 "local search advertising revenue restaurant vertical"
+```
+
+### **3.2 Private Company Valuations**
+
+#### **Search Prompts for Startup Data:**
+```
+Startup Ecosystem:
+🔍 "restaurant discovery startup funding rounds 2023 2024"
+🔍 "food tech startup valuations Crunchbase"
+🔍 "restaurant app startup market size projections"
+🔍 "Series A B funding food discovery platforms"
+🔍 "restaurant technology startup exit valuations"
+🔍 "food tech unicorn companies market analysis"
+```
+
+#### **Key Databases:**
+- **Crunchbase**: crunchbase.com (startup funding data)
+- **PitchBook**: pitchbook.com (private market data)
+- **CB Insights**: cbinsights.com (market intelligence)
+
+---
+
+## 📈 **4. VALUE THEORY APPROACH**
+
+### **4.1 Problem Value Quantification**
+
+#### **Research Prompts for Problem Value:**
+```
+Problem Economics:
+🔍 "cost of bad restaurant experience consumer behavior"
+🔍 "time spent researching restaurants before dining out"
+🔍 "restaurant discovery decision making time studies"
+🔍 "economic impact restaurant recommendations word of mouth"
+🔍 "value of personalized recommendations consumer research"
+🔍 "cost of restaurant marketing customer acquisition"
+```
+
+### **4.2 Value Creation Calculation**
+
+```
+Value Theory Framework:
+├── Time Saved: Hours × Hourly Value Rate
+├── Bad Experience Avoided: Frequency × Average Loss
+├── Discovery Value: New Experiences × Experience Value
+├── Social Value: Sharing/Recommendations × Network Effect
+└── Restaurant Value: Customer Acquisition × LTV Improvement
+```
+
+#### **Example Value Calculation:**
+```
+Consumer Value Per Year:
+├── Time saved researching: 20 hours × $25/hour = $500
+├── Bad experiences avoided: 5 × $50 = $250
+├── Discovery of hidden gems: 12 × $20 value = $240
+├── Social sharing value: $50
+└── Total Annual Value = $1,040
+
+Willingness to Pay = 5-10% of value = $50-100/year
+```
+
+---
+
+## 🎯 **5. GEOGRAPHIC MARKET SIZING**
+
+### **5.1 Geographic Research Prompts**
+
+#### **US Market Analysis:**
+```
+Geographic Segmentation:
+🔍 "restaurant density by US metropolitan area"
+🔍 "dining out frequency by city New York Los Angeles Chicago"
+🔍 "restaurant industry revenue by state California Texas Florida"
+🔍 "urban vs suburban restaurant market size"
+🔍 "food tech adoption rate by geographic region"
+🔍 "restaurant spending per capita major US cities"
+```
+
+#### **International Expansion Potential:**
+```
+Global Markets:
+🔍 "restaurant industry size Canada UK Australia"
+🔍 "food delivery app adoption international markets"
+🔍 "dining out culture by country market opportunity"
+🔍 "smartphone penetration restaurant discovery global"
+🔍 "food tech investment by country venture capital"
+```
+
+---
+
+## 📊 **6. DATA VALIDATION & TRIANGULATION**
+
+### **6.1 Cross-Reference Strategy**
+
+#### **Validation Checklist:**
+```
+Data Verification:
+├── Compare 3+ sources for same metric
+├── Check publication dates (prefer <2 years old)
+├── Verify methodology and sample sizes
+├── Look for consistent growth rates across sources
+├── Validate with government data where possible
+├── Cross-check with public company financials
+└── Ensure geographic and demographic alignment
+```
+
+### **6.2 Red Flags to Watch For**
+
+```
+Data Quality Issues:
+❌ Single source for critical metrics
+❌ Outdated data (>3 years old)
+❌ Unclear methodology or sample size
+❌ Wildly different numbers across sources
+❌ No primary research backing
+❌ Overly optimistic growth projections
+❌ Conflating different market segments
+```
+
+---
+
+## 📋 **7. TAM RESEARCH TEMPLATE**
+
+### **7.1 Data Collection Spreadsheet**
+
+```
+TAM Research Tracker:
+├── Source Name | Metric | Value | Date | Credibility (1-5)
+├── Market Size Data
+├── Growth Rate Data  
+├── Consumer Spending Data
+├── Competitive Data
+├── Geographic Data
+└── Validation Notes
+```
+
+### **7.2 TAM Calculation Template**
+
+```
+TAM Calculation Worksheet:
+
+TOP-DOWN:
+├── Global Restaurant Industry: $X trillion
+├── Technology/App Penetration: X%
+├── Discovery Segment: X%
+└── Top-Down TAM: $X billion
+
+BOTTOM-UP:
+├── Target Population: X million people
+├── Average Annual Spending: $X
+├── Market Penetration: X%
+└── Bottom-Up TAM: $X billion
+
+VALUE THEORY:
+├── Annual Value Created: $X per user
+├── Willingness to Pay: $X per user (X% of value)
+├── Addressable Users: X million
+└── Value-Based TAM: $X billion
+
+FINAL TAM RANGE: $X - $Y billion
+```
+
+---
+
+## 🎯 **8. SPECIFIC SEARCH STRATEGY**
+
+### **8.1 Google Search Techniques**
+
+#### **Advanced Search Operators:**
+```
+Search Optimization:
+🔍 "restaurant industry" site:statista.com
+🔍 "food tech market" filetype:pdf
+🔍 "dining out spending" site:bls.gov
+🔍 intitle:"restaurant market size" 2024
+🔍 "TAM analysis" "food discovery" OR "restaurant app"
+🔍 "market research" "restaurant technology" -delivery
+```
+
+#### **Date and Source Filters:**
+```
+Quality Filters:
+├── Tools → Any time → Past year (for recent data)
+├── Tools → All results → Verbatim (exact phrase matching)
+├── Site-specific searches for authoritative sources
+├── PDF files for detailed reports
+└── News tab for recent developments
+```
+
+### **8.2 Database Search Strategy**
+
+#### **Academic Databases:**
+- **Google Scholar**: scholar.google.com
+- **JSTOR**: jstor.org (university access)
+- **ResearchGate**: researchgate.net
+- **SSRN**: ssrn.com
+
+#### **Search Terms for Academic Sources:**
+```
+Academic Research:
+🔍 "restaurant choice behavior" "mobile applications"
+🔍 "food service industry" "market analysis" "economics"
+🔍 "consumer behavior" "restaurant selection" "technology"
+🔍 "hospitality technology" "market size" "adoption"
+```
+
+---
+
+## ✅ **9. TAM RESEARCH CHECKLIST**
+
+### **Week 1-2 Research Plan:**
+
+#### **Day 1-3: Industry Overview**
+- [ ] Global restaurant industry size and growth
+- [ ] US restaurant market breakdown by segment
+- [ ] Food tech/mobile app market size
+- [ ] Key industry trends and drivers
+
+#### **Day 4-6: Consumer Behavior**
+- [ ] Average household restaurant spending
+- [ ] Dining frequency by demographics
+- [ ] Restaurant discovery current methods
+- [ ] Technology adoption in food discovery
+
+#### **Day 7-10: Competitive Analysis**
+- [ ] Public company revenue analysis
+- [ ] Startup funding and valuations
+- [ ] Market share estimates
+- [ ] Business model analysis
+
+#### **Day 11-14: Validation & Synthesis**
+- [ ] Cross-reference all major data points
+- [ ] Calculate TAM using multiple approaches
+- [ ] Identify data gaps and assumptions
+- [ ] Create final TAM range and rationale
+
+### **Deliverable: TAM Analysis Report**
+
+```
+TAM Report Structure:
+├── Executive Summary (TAM range and key insights)
+├── Methodology (data sources and approaches)
+├── Market Size Analysis (top-down calculations)
+├── Consumer Behavior Analysis (bottom-up calculations)
+├── Competitive Landscape (market share and positioning)
+├── Geographic Breakdown (primary and expansion markets)
+├── Growth Projections (3-5 year forecasts)
+├── Key Assumptions and Risks
+└── Appendix (data sources and calculations)
+```
+
+This comprehensive approach will give you a defensible TAM analysis that investors and stakeholders will respect. The key is triangulating data from multiple sources and being transparent about your assumptions.
+
+Would you like me to help you start with any specific search or create templates for data collection?
